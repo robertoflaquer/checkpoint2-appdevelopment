@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atores e Atrizes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="topo">
+    <h1>Atores e Atrizes</h1>
+    <p class="subtitulo">Digite um nome para filtrar os cards em tempo real.</p>
+
+    <input type="text" id="busca" placeholder="Buscar por nome..." oninput="filtrar()">
+    <p id="contador"></p>
+  </div>
+
+  <div class="grid" id="grid"></div>
+
+  <p class="rodape">Checkpoint 2 - Application Development - FIAP</p>
+
+  <script src="dados.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
